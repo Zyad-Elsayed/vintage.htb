@@ -1,2 +1,2 @@
 # vintage.htb
-Script for solving vintage machine from hack the box 
+Script for Solving the attack process of Vintage Machine from Hack The Box
